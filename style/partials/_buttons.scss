@@ -1,0 +1,54 @@
+button {
+	border: none;
+	border-radius: 3px;
+	font-size: 1rem;
+	font-family: $smallFont;
+	background-color: $orange;
+	color: white;
+	transition: ease all .3s;
+	width: 200px;
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	&:hover {
+		background-color: white;
+		color: $orange;
+		border: 1px solid $orange;
+		cursor: pointer;
+	}
+}
+
+.resultsBtn {
+	border: 1px solid $orange;
+	position: absolute;
+	bottom: -18px;
+	background-color: white;
+	color: $orange;
+	font-family: $smallFont;
+	text-transform: uppercase;
+	padding: .5rem 1.8rem;
+	border-radius: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: .8rem;
+	transition: ease all .3s;
+	&:hover{
+		background-color: $orange;
+		color: white;
+		cursor: pointer;
+	}
+}
+
+.newSearchBtn {
+	position: absolute;
+	bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*.bx-wrapper {
+	margin: 0 auto;
+}*/
+
+

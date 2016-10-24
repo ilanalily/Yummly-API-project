@@ -1,0 +1,108 @@
+@media (max-width: 940px) {
+	label {
+		font-size: .8rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.wrapper {
+		width: 85%;
+	}
+}
+
+
+@media (max-width: 630px) {
+	.mealTypeList .mealTypeItem {
+		width: calc(50% - 10px);
+		label {
+		font-size: 2.3vw;
+		}
+	}
+	.wrapper {
+		height: 80vh;
+		margin-top: 2rem;
+	}
+	.mealTypeList {
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 550px) {
+	.mealTypeList .mealTypeItem {
+		width: calc(100% - 5px);
+		padding:5px;
+		label {
+		font-size: 1rem;
+		}
+	}
+	.wrapper {
+		height: 90vh;
+	}
+	form {
+		margin-top: 15px;
+	}
+	
+}
+
+@media (max-width: 400px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+}
+
+
+@media (max-width: 340px) {
+	.mealTypeList .mealTypeItem {
+		padding: 2px;
+	}
+	h6 {
+		margin-top: 15px;
+	}
+}
+
+
+@media (max-height: 450px) {
+	form {
+		margin-top: 20px;
+	}
+	h6 {
+		margin-top: 30px;
+	}
+	.wrapper {
+		height: 75vh;
+		margin-top: 3rem;
+	}
+	h1 {
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+	label {
+		font-size: 1rem;
+	}
+	footer {
+		display: none;
+	}
+}
+
+@media (max-height: 380px) {
+	label{
+		font-size: .8rem;
+	}
+	form {
+		margin-top: 5px;
+	}
+	.search {
+		padding: .5rem;
+	}
+	h6 {
+		margin-top: 10px;
+		font-size: 1rem;
+	}
+	.mealTypeList .mealTypeItem {
+		width: calc(25% - 5px);
+		margin: 2.5px;
+	}
+
+}
+
+

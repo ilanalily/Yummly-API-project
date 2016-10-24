@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(5,5,5,.3),rgba(5,5,5,.3)),url("../images/foodImage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 110vh;
+	font-family: $titleFont;
+	font-size: 10px;
+}
+
+.wrapper {
+	width: 60%;
+	margin: 5rem auto 0;
+	text-align: center;
+	height: 65vh;
+	background-color: rgba(255,255,255, .9);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: relative;
+	padding: 15px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>No Time To Cook</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
+	<link rel="stylesheet" href="jquery.bxslider/jquery.bxslider.css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<section class="titlePage">
+		<div class="wrapper">
+			<h1>No Time To Cook? <br>No Problem!</h1>
+			<button type="button" class="startBtn">Let's Get Cooking</button>
+		</div>
+	</section>
+
+	<section class="main">
+		<div class="wrapper">
+			<div class="search">
+				<form action="">
+					<div class="searchArea">
+						<label for="search" class="minutesSearch">How many minutes do you have?</label>
+						<input type="search" name="search" class="search" placeholder="# of minutes">
+					</div>
+				<h6>What sort of recipe do you want?</h6>
+				<div class="mealTypeList">
+						<input type="radio" name="foodType" value="Main Dishes" id="mainDishes">
+						<label for="mainDishes" class="mealTypeItem" >Main Dishes</label>
+						<input type="radio" name="foodType" value="Side Dishes" id="sideDishes">
+						<label for="sideDishes" class="mealTypeItem">Side Dishes</label>
+						<input type="radio" name="foodType" value="Appetizers" id="appetizers">
+						<label for="appetizers" class="mealTypeItem">Appetizers</label>
+						<input type="radio" name="foodType" value="Soups" id="soups">
+						<label for="soups" class="mealTypeItem">Soups</label>
+						<input type="radio" name="foodType" value="Salads" id="salads">
+						<label for="salads" class="mealTypeItem">Salads</label>
+						<input type="radio" name="foodType" value="Desserts" id="desserts">
+						<label for="desserts" class="mealTypeItem">Desserts</label>
+						<input type="radio" name="foodType" value="Beverages" id="beverages">
+						<label for="beverages" class="mealTypeItem">Beverages</label>
+						<input type="radio" name="foodType" value="Cocktails" id="cocktails">
+						<label for="cocktails" class="mealTypeItem">Cocktails</label>
+					</div>
+				</div>
+					<input type="submit" value="Find me a recipe!" class="resultsBtn">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="results">
+		<div class="wrapper">
+			<div class="container carousel" id="recipeContainer"> 
+						<!--figure out how to get a flickr gallery in here of all possible recipes that fit the criteria of the search-->
+				<article class="carousel-cell">
+					<h3></h3>
+					<img src="" alt="">
+					<ul class="ingredients"></ul>
+					<a href=""></a>
+				</article>
+			</div>
+			<div class="newSearch">
+				<button type="button" class="newSearchBtn">Start a New Search</button>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>Developed by Ilana Solomons</p>
+		<div class="poweredBy">
+			<p>Powered by</p> <a href="http://www.yummly.com/"><img src="images/yummlylogo.png" alt="yummly logo" class="logo"></a>
+		</div>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="jquery.bxslider/jquery.bxslider.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

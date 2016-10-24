@@ -1,0 +1,73 @@
+h6 {
+	font-family: $smallFont;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+label {
+	font-family: $smallFont;
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+form {
+	margin-top: 6rem;
+}
+
+.searchArea {
+	display: flex;
+	flex-direction: column;
+	.search {
+		width: 150px;
+		margin: 10px auto 0;
+		text-align: center;
+		font-family: $smallFont;
+		padding: 1rem;
+		font-size: .9rem;
+
+	}
+}
+
+.mealTypeList {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	font-size: 1vw;
+	.mealTypeItem {
+		width: calc(25% - 10px);
+		padding: .5rem;
+		background-color: $orange;
+		color: white;
+		margin: 5px;
+		border: 1px solid transparent;
+		transition: ease all .3s;
+		label {
+			font-size: 2vw;
+		}
+		&:hover {
+			color: $orange;
+			background-color: white;
+			border: 1px solid $orange;
+			cursor: pointer;
+		}
+	}
+	input[type='radio'] {
+		display: none;
+	}
+	input[type='submit'] {
+		display: block;
+	}
+}
+
+.mealTypeList .jsSelectedLabel {
+	color: $orange;
+	background-color: white;
+	border: 1px solid $orange;
+}
+
+
+
+
+
+

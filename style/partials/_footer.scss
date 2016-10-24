@@ -1,0 +1,25 @@
+footer {
+	margin-top: 20px;
+	text-align: center;
+	font-family: $smallFont;
+	color: white;
+	font-size: .8rem;
+	p {
+		display: inline-block;
+		margin-bottom:10px;
+		margin-top: 10px;
+	}
+	img {
+		width: 55px;
+		float: none;
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+
+.poweredBy {
+	display: flex;
+	flex-direction: column;
+	margin-top: -7px;
+}
+
